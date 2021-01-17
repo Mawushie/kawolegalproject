@@ -1,0 +1,107 @@
+.navbar-home{    /*overwrites the default bootstrap nav properties*/
+    flex-direction: column;
+    border: none;
+    background-color: #3e1616 ;
+    height: 120px;
+    width: 100%;
+}
+
+.navlinks{
+    padding-top: 30px;
+    padding-right: 120px;
+  }
+  
+  .navlinks > li > a{ /*css for the positioning of the links*/
+     text-align: right;
+     padding-right: 20px;
+     font-family: Open Sans;
+     font-size: 14px;
+     font-style: normal;  
+  }
+  
+  .navbar-home .navbar-nav > li > a { /*coloring of the links*/
+      color: red;
+      margin: 5px;
+  }
+  /* unvisited link */
+  .navbar-home .navbar-nav > li > a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  .navbar-home .navbar-nav > li > a:visited {
+    color: red;
+  }
+  
+  
+  
+  /* active and hover properties */
+  .navbar-default .navbar-nav > .active > a{
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+  }
+  
+  .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus
+  {
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+  
+  }
+  
+  .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav  > a:focus
+  {
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+  
+  }
+
+.content{
+    margin-top: 150px;
+}
+
+.form{
+    width: 80%;
+    margin: auto;
+}
+
+.footer{ /*css for footer*/
+    height: 55px;
+    background-color: #3e1616;
+    color: white;  
+    margin-top: 25px;
+    position: fixed;
+    left: 0;
+    bottom: 183px;
+    width: 100%;
+}
+
+.rights{/*styles the text that says all rights reserved*/
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.socials{/*removes default 'decorations' on list*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-right: 200px;/*gives space on right side of insta logo*/
+}
+
+.socials > li > a {/*gets the lists to display horizontally*/
+    float: left;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #5dbcd2; /*change color of social media icons*/
+  }
+
+.link{/*shift links to right of div*/
+    float: right;
+}
